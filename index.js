@@ -30,7 +30,7 @@ const zdanie = () => {
         return Math.floor(Math.random()*7)
     }
 
-    console.log(`${Pierwsza[num1()]} ${Druga[num2()]} ${Trzecia[num3()]} ${Czwarta[num4()]} ${Piąta[num5()]} ${Szósta[num6()]} `)
+    console.log(`${Pierwsza[num1()]} ${Druga[num2()]} ${Trzecia[num3()]} ${Czwarta[num4()]} ${Piąta[num5()]} ${Szósta[num6()]}!`)
     
     return ''
 }
