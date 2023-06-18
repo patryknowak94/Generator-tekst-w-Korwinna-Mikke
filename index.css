@@ -1,0 +1,20 @@
+img {
+    max-width: 10%;
+    max-height: 10%;
+}
+h1, h2, p {
+    text-align: center;
+}
+h2 {
+    min-height: 50px;
+    min-width: 90%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.janusz, .generuj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
