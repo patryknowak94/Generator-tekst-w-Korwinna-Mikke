@@ -1,6 +1,5 @@
 img {
-    max-width: 10%;
-    max-height: 10%;
+    max-width: 15%;
 }
 h1, h2, p {
     text-align: center;
@@ -17,4 +16,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+body {
+    background-color: lightgray;
 }
