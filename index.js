@@ -6,31 +6,19 @@ const Piąta = ['bo dzięki temu mogą kraść', 'bo dostają za to pieniądze',
 const Szósta = ['przez kolejne kadencje', 'o czym się nie mówi', 'i właśnie dlatego Europa umiera', 'ale przyjdą muzułmanie i zrobią porządek', 'tak samo zresztą Jak za Hitlera', 'proszę zobaczyć, co się dzieje na Zachodzie, jeśli mi państwo nie wierzą', 'co lat temu sto nikomu nie przyszłoby nawet do głowy']
 
 const zdanie = () => {
-    const num1 = () => {
-        return Math.floor(Math.random()*Pierwsza.length)
-    }
+    const num1 = Math.floor(Math.random()*Pierwsza.length);
 
-    const num2 = () => {
-        return Math.floor(Math.random()*Druga.length)
-    }
+    const num2 =  Math.floor(Math.random()*Druga.length);
 
-    const num3 = () => {
-        return Math.floor(Math.random()*Trzecia.length)
-    }
+    const num3 = Math.floor(Math.random()*Trzecia.length);
 
-    const num4 = () => {
-        return Math.floor(Math.random()*Czwarta.length)
-    }
+    const num4 = Math.floor(Math.random()*Czwarta.length);
 
-    const num5 = () => {
-        return Math.floor(Math.random()*Piąta.length)
-    }
+    const num5 = Math.floor(Math.random()*Piąta.length);
 
-    const num6 = () => {
-        return Math.floor(Math.random()*Szósta.length)
-    }
+    const num6 = Math.floor(Math.random()*Szósta.length);
 
-    const zdanie = document.querySelector("h2")
-    zdanie.innerHTML = `${Pierwsza[num1()]} ${Druga[num2()]} ${Trzecia[num3()]} ${Czwarta[num4()]} ${Piąta[num5()]} ${Szósta[num6()]}!`
+    const zdanie = document.querySelector("h2");
+    zdanie.innerHTML = `${Pierwsza[num1]} ${Druga[num2]} ${Trzecia[num3]} ${Czwarta[num4]} ${Piąta[num5]} ${Szósta[num6]}!`
 
 }
